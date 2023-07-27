@@ -1,0 +1,43 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HelloWorld > The greetee prop works 1`] = `
+<select
+  className="input_employee"
+  onChange={[Function]}
+>
+  <option
+    value=""
+  />
+  <option />
+  <option />
+  <option />
+</select>
+`;
+
+exports[`Select > Select component renders correctly 1`] = `null`;
+
+exports[`Select > The prop works 1`] = `
+<select
+  className="input_employee"
+  onChange={[Function]}
+>
+  <option
+    value=""
+  />
+  <option
+    value="Alabama"
+  >
+    Alabama
+  </option>
+  <option
+    value="Alaska"
+  >
+    Alaska
+  </option>
+  <option
+    value="American Samoa"
+  >
+    American Samoa
+  </option>
+</select>
+`;
